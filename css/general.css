@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport{ width: device-width; scale: 1;}
+@-ms-viewport{ width: device-width; scale: 1;}
+@-o-viewport{ width: device-width; scale: 1;}
+@-webkit-viewport{ width: device-width; scale: 1;}
+@viewport{ width: device-width; scale: 1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+body{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	line-height:1.5rem;
+	font-size: 13px;
+}
+
+/* --------------------------------- Masthead */
+
+header {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+nav ul {
+	width: 100%;
+	position:relative;
+	height:5rem;
+	margin: 0;
+	padding: 0;
+	padding-top: 0.30rem;
+	display:block;
+	text-align: center;
+}
+
+nav li {
+	text-decoration: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.logo {
+	top: 1rem;
+	margin-left:27%;
+}
+
+.masthead {
+	background-color:#999;
+	height: 2rem;
+}
+
+footer p {
+	width: 100%;
+	position:relative;
+	height:5rem;
+	text-align: center;
+}
+
+img {
+	width:50%;
+	margin-left:27%;
+}
+
+/* ------------------------------------- content */
+
+h1 {
+	font-family: Corbel, Helvetica, sans-serif;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+.info {
+	top:15rem;	
+}
+
+/*-------------------------------------- footer */
+
+footer {
+	background-color:#999;
+	height: 1.5rem;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+	
+footer p {
+	width: 100%;
+	position:relative;
+	height:5rem;
+	text-align: center;
+}
